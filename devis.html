@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ANSA – Devis</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo"><a href="index.html"><img src="images/logo-ansa.png" alt="ANSA Logo"></a></div>
+  <div class="hamburger"><div></div><div></div><div></div></div>
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="services.html">Services</a>
+    <a href="devis.html">Devis</a>
+    <a href="apropos.html">À propos</a>
+  </nav>
+</header>
+
+<section>
+  <h2>Devis Personnalisé</h2>
+  <p>Chaque intervention peut faire l’objet d’un devis clair et détaillé.</p>
+  <form action="#" method="POST">
+    <input type="text" name="nom" placeholder="Nom" required>
+    <input type="text" name="prenom" placeholder="Prénom" required>
+    <input type="text" name="adresse" placeholder="Adresse" required>
+    <input type="tel" name="telephone" placeholder="Téléphone" required>
+    <select name="service" required>
+      <option value="">Service demandé</option>
+      <option value="essentielle">Formule Essentielle</option>
+      <option value="complete">Formule Complète</option>
+      <option value="reparation">Réparation simple</option>
+    </select>
+    <textarea name="message" placeholder="Message"></textarea>
+    <button type="submit">ENVOYER DEMANDE</button>
+  </form>
+  <div class="contact-quick">📞 06 03 59 68 84 | 📍 Pau</div>
+</section>
+
+<footer>
+  ANSA – Anatoli&Corp | 📞 06 03 59 68 84 | 📍 Pau
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
